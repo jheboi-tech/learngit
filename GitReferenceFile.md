@@ -13,4 +13,5 @@ Git Command Reference
 11: git checkout -b <newbranchname> <origin/branchtoclonefromremote> (creates new branch locally called newbranch name which is a clone of the remote branch)\
 12: git merge <otherbranch> (merges current branch with otherbranch)\
 13: start <file> (opens file with default editor)\
+14: git fetch (alternative to git pull where it only dowloads the changes and commits from remote but does not merge anything conflicting)
 
